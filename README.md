@@ -1,5 +1,12 @@
 # NeedCabASAP
 
+## Project Status
+
+**Status: In Progress**
+
+This project is currently in progress and is not yet ready for production use. We are actively working on implementing new features and resolving any issues that arise. Contributions and feedback are welcome!
+
+
 Welcome to NeedCabASAP, an intuitive and efficient Uber-like app that seamlessly connects users with nearby vehicles, allowing them to book rides, calculate costs, and enjoy convenient transportation services.
 
 ## Table of Contents
