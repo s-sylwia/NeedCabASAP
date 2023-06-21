@@ -1,10 +1,20 @@
 package com.example.needcabasap;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class RideValidator {
 
-    public String validate(RideRequest rideRequest) {
-        return "success";
+    private final BookDateValidator bookDateValidator;
 
+    RideValidator(BookDateValidator bookDateValidator) {
+        this.bookDateValidator = bookDateValidator;
+    }
+
+    public String validate(RideRequest request) {
+        String bookDateValidationResult = bookDateValidator.validateBookDate(request);
+//        String addressValidationResult = addressValidator.validate(request);
+        return bookDateValidationResult;
     }
 
 

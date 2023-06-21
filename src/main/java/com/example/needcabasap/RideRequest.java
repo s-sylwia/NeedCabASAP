@@ -3,7 +3,8 @@ package com.example.needcabasap;
 import java.time.LocalDateTime;
 
 public record RideRequest(String sourceAddress,
-                          String destinationAddress,
+                          String destAddress,
                           String city,
-                          LocalDateTime bookingDate) {
-}
+                          LocalDateTime now,
+                          LocalDateTime bookDate) {
+        }
